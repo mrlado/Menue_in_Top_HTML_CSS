@@ -1,0 +1,46 @@
+*{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family:'Montserrat', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#Logo {
+margin-right: auto;
+font-family: 'Water Brush', cursive;
+color: rgb(103, 226, 21);
+}
+ul.nav_links{
+ list-style: none;
+}
+ul.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav_links li a {
+transition: all 0.3s ease 0s;
+text-decoration: none;
+}
+.nav_links li a:hover{
+    color: rgb(103, 226, 21);
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(103, 226, 21);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgb(207, 19, 198);
+}
